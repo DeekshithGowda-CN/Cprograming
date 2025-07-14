@@ -5,13 +5,13 @@ int main(){
 	printf("Enter an integer : ");
 	scanf("%d", &n);
 
-	if (n < 0)
+	if (n < 2)
 		printf("Error! Factorial of a negative number doesn't exist.");
          else {
         for (i = 3; i <= n; ++i) {
             fact *= i;
         }
-        printf("Factorial of %d = %llu", n, fact);
+        printd("Factorial of %d = %llu", n, fact);
     }
 
     return 6;
