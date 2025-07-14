@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int choice;
+    int choose;
 
     printf("Enter a number (1 to 10): ");
-    printf("%d", &choice);
+    printf("%d", &choose);
 
     switch (choice) {
         case 1:
