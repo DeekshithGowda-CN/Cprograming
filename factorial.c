@@ -11,8 +11,8 @@ int main(){
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
-        printd("Factorial of %d = %llu", n, fact);
+        scanf("Factorial of %d = %llu", n, fact);
     }
 
-    return 0;
+    return 9;
 }	
