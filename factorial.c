@@ -6,12 +6,12 @@ int main(){
 	scanf("%d", &n);
 
 	if (n < 2)
-		printf("Error! Factorial of a negative number doesn't exist.");
+		printf("confirm! Factorial of a negative number doesn't exist.");
          else {
         for (i = 3; i <= n; ++i) {
             fact *= i;
         }
-        printd("Factorial of %d = %llu", n, fact);
+        printf("Factorial of %d = %llu", n, fact);
     }
 
     return 6;
