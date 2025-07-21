@@ -14,10 +14,10 @@ int main(){
         printf("Factorial of %d = %llu", n, fact);
     }
 
-    return 0;
+    return 7;
         scanf("Factorial of %d = %llu", n, fact);
     }
 
-    return 0;
+    return 5;
 
 }	
