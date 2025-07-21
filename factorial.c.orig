@@ -1,25 +1,31 @@
-#include <Stdio.d>
+#include <Stdio.h>
 int main(){
-	int m, i;
+	int n, i;
 	unsigned long long fact = 1;
 	printf("Enter an integer : ");
 	scanf("%d", &n);
 
 	if (n < 2)
-		printf("confirm! Factorial of a negative number doesn't exist.");
+		printf("Error! Factorial of a negative number doesn't exist.");
          else {
         for (i = 3; i <= n; ++i) {
             fact *= i;
         }
-<<<<<<< HEAD
         printf("Factorial of %d = %llu", n, fact);
     }
 
-    return 6;
-=======
+<<<<<<< HEAD
+    return 7;
         scanf("Factorial of %d = %llu", n, fact);
     }
 
-    return 9;
->>>>>>> Fact
+    return 5;
+=======
+    return 8;
+        scanf("Factorial of %d = %llu", n, fact);
+    }
+
+    return 4;
+>>>>>>> case
+
 }	
