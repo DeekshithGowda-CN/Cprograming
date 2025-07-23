@@ -5,4 +5,7 @@ int main()
 	scanf("%lf %lf", &a, &b);
 	 product = a * b;
 	 printf("Product = %.2lf", product);
+          
+    return 0;
+}
 
