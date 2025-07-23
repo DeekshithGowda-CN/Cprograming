@@ -4,3 +4,5 @@ int main()
 	printf("Enter two numbers: ");
 	scanf("%lf %lf", &a, &b);
 	 product = a * b;
+	 printf("Product = %.2lf", product);
+
