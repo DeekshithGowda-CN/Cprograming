@@ -5,4 +5,6 @@ int main() {
         scanf("%lf", &first);
         printf("Enter second number: ");
         scanf("%lf", &second);
+       
+	temp = first;
 
