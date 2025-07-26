@@ -8,3 +8,4 @@ int main() {
        
 	temp = first;
 
+	first = second;
